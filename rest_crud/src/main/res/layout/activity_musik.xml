@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="60dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul Lagu"
+        android:layout_gravity="left"
+        android:padding="5dp"
+        />
+    <EditText
+        android:id="@+id/edit_Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Lagu"
+        />
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tahun Rilis"
+        android:layout_gravity="left"
+        android:padding="5dp"
+        />
+    <EditText
+        android:id="@+id/edit_Tahun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ex : 2017"/>
+
+    <TextView
+        android:id="@+id/buy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:layout_gravity="left"
+        android:padding="5dp"
+        />
+    <EditText
+        android:id="@+id/edit_Desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deskripsi"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_category">
+    </Spinner>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_news"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MSA Musik</string>
+
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="text_refresh">refresh</string>
+    <string name="text_save">save</string>
+    <string name="text_app_name">app_name</string>
+    <string name="name">nama</string>
+    <string name="buy">Buy</string>
+    <string name="subCategory">diskripsi</string>
+    <string name="add">ADD</string>
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+    <string name="navigation_drawer_open">News</string>
+    <string name="navigation_drawer_close">Diskripsi</string>
+</resources>

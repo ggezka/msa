@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+
+    <item
+        android:id="@+id/news"
+        android:checkable="false"
+        android:icon="@drawable/iconmusik"
+        android:title="Musik" />
+    <item
+        android:id="@+id/genre"
+        android:checkable="false"
+        android:icon="@drawable/iconcategory"
+        android:title="Genre" />
+    <item
+        android:id="@+id/exit"
+        android:checkable="false"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Keluar" />
+    </group>
+
+</menu>
+

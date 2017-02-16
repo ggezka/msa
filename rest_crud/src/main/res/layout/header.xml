@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/backg"
+    android:gravity="bottom"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="1dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="normal|bold"
+        android:textColorHighlight="#6601ffe7" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:src="@drawable/iconmusik"
+        android:layout_height="0dp"
+        android:layout_weight="0.47" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:text="MSA Musik"
+        android:textAlignment="center"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SMKN1BANGSRI</string>
+
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="text_search">search</string>
+    <string name="text_refresh">refresh</string>
+    <string name="text_save">save</string>
+    <string name="text_app_name">app_name</string>
+</resources>
